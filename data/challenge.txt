@@ -1,0 +1,37 @@
+# causative-inchoative alternation: MFT
+id  sentence    prep    label/ARG1
+id1 John broke the vase. broke   vase  
+id2 The window broke.    broke   window  
+id3 Alex crashed the car against the wall.   crashed    car
+id4 The train crashed.   crashed train
+id5 The food tasted better than the last time.   tasted  food
+id6 The sunshine faded the courtains.    faded   courtains
+id7 John's sunburn faded.    faded   sunburn
+id8 Pressure begun to build. begun   pressure
+id9 The ice melts.   melts   incentive
+
+# active-passive alternation: MFT
+id  sentence    prep    ARG0    ARG1
+id1 Adrian killed Mary.  killed  Adrian  Mary
+id2 Adrian was killed by Mary.   killed  Mary    Adrian
+id3 The students were given homework by the teacher. given   teacher homework
+id4 The potrait was painted by the artist.   painted artist  potrait
+id5 The dog chased the cat.  chased  dog cat
+id6 
+
+# material-product alternation: INV 
+id  sentence    prep    ARG1
+id1 Elisa carved a toy out of the wood  carved  wood
+id2 Mark cut himself with a knife   cut himself
+id3 Elenn sculpt clay into a statue sculpt  clay
+id4 Mark carved the wood into a toy carved  wood
+id5 Elenn cut the wood with a saw   cut wood
+id6 They modelled plasticine as kids    modelled    plasticine
+
+# locative alternation: INV
+id  sentence    prep    ARG2
+id1 John sprayed the wall with paint.    sprayed   wall
+id2 He scattered half of the seeds in his garden.    scattered   garden
+id3 Most of them are scattered across the country.   scattered   country 
+id4 She spread butter on her bread  spread  bread
+id5 Elen loaded the boxes onto her car. loaded  car
