@@ -35,3 +35,8 @@ id2 He scattered half of the seeds in his garden.    scattered   garden
 id3 Most of them are scattered across the country.   scattered   country 
 id4 She spread butter on her bread  spread  bread
 id5 Elen loaded the boxes onto her car. loaded  car
+
+# long dependencies: 
+id  sentence prep ARG0
+id1 The waiter, after a long shift of 8 hours, went back home.   went    waiter
+id2 Timo, who was very very mad at Luca for breaking his cup, 
