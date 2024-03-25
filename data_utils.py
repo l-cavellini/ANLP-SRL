@@ -8,7 +8,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from scipy.sparse import hstack, vstack
 import re
-from feature_utils import *
+from features_utils import *
 
 
 def read_conll(file_path):

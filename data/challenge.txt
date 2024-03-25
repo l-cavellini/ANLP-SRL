@@ -1,42 +1,70 @@
-# causative-inchoative alternation: MFT
-id  sentence    prep    label/ARG1
-id1 John broke the vase. broke   vase  
-id2 The window broke.    broke   window  
-id3 Alex crashed the car against the wall.   crashed    car
-id4 The train crashed.   crashed train
-id5 The food tasted better than the last time.   tasted  food
-id6 The sunshine faded the courtains.    faded   courtains
-id7 John's sunburn faded.    faded   sunburn
-id8 Pressure begun to build. begun   pressure
-id9 The ice melts.   melts   incentive
+# Causative-Inchoative Alternation: INV      ARG1
+CIA-INV1  John broke the vase./The vase broke.     broke   vase  
+CIA-INV2  Alex crashed the car against the wall./The car crashed againts the wall.   crashed   car
+CIA-INV3  The soup tasted better than the last time./I tasted a delicious soup.   tasted     soup
+CIA-INV4  The wind cleared the sky from the clouds./The sky cleared from the clouds.    cleared   sky
+CIA-INV5  The ice melts./Warm temperature melts the ice.    melts   ice
+     
+# Causative-Inchoative Alternation: MFT + Long dependencies      ARG1
+CIA-Dep-MFT1   The vase, that was a gift from japan, broke during the moving.   broke     vase
+CIA-Dep-MFT2   The plane, due to malfunction in the left engine, crashed on land.    crushed   plane
+CIA-Dep-MFT3   The window, which was just being repaired, smashed into thousands of pieces.    smashed   window
+CIA-Dep-MFT4   The book, pushed by the cat on the table, fell on the ground.    fell      book
+CIA-Dep-MFT5   The light of that beautiful old lamp now dims.    dims      light 
+CIA-Dep-MFT6   The ice, due to the warm weather of the past few days, melted.   melted    ice   
 
-# active-passive alternation: MFT
-id  sentence    prep    ARG0    ARG1
-id1 Adrian killed Mary.  killed  Adrian  Mary
-id2 Adrian was killed by Mary.   killed  Mary    Adrian
-id3 The students were given homework by the teacher. given   teacher homework
-id4 The potrait was painted by the artist.   painted artist  potrait
-id5 The dog chased the cat.  chased  dog cat
-id6 
+# Passive Alternation: MFT   ARG1  
+PA-MFT1  My present was lost during the shipping.  lost    present
+PA-MFT2  Adrian was killed by Mary.     killed     Mary     Adrian
+PA-MFT3  The students were given homework by the teacher.   given    homework
+PA-MFT4  The potrait was painted in the early '90.   painted    potrait
+PA-MFT5  The criminal was chased by the police.   chased    criminal
+PA-MFT6  The gazzelle was hunted by the lions.    hunted     gazzelle
+PA-MFT7  The song sang by the band was terrific.      ssang     song
+PA-MFT8  The words written there were so moving.      written   words
+PA-MFT9  My wallet was stolen.     stolen  wallet 
+PA-MFT10  The speech was delivered by the politician.  delivered      speech
 
-# material-product alternation: INV 
-id  sentence    prep    ARG1
-id1 Elisa carved a toy out of the wood  carved  wood
-id2 Mark cut himself with a knife   cut himself
-id3 Elenn sculpt clay into a statue sculpt  clay
-id4 Mark carved the wood into a toy carved  wood
-id5 Elenn cut the wood with a saw   cut wood
-id6 They modelled plasticine as kids    modelled    plasticine
+# Passive Alternation: MFT + Robustness  ARG1
+PA-MFT-ROB1  My present was lost during the shipping.  lost    present
+PA-MFT-ROB2  Adrian was killed Mary.     killed     Mary     Adrian
+PA-MFT-ROB3  The students were given homework the teacher.   given    homework
+PA-MFT-ROB4  The potrait was painted in the early '90.   painted    potrait
+PA-MFT-ROB5  The criminal was chased the police.   chased    criminal
+PA-MFT-ROB6  The gazzelle was hunted the lions.    hunted     gazzelle
+PA-MFT-ROB7  The song sang the band was terrific.      ssang     song
+PA-MFT-ROB8  The words written there were so moving.      written   words
+PA-MFT-ROB9  My wallet was stolen.     stolen  wallet 
+PA-MFT-ROB10  The speech was delivered the politician.  delivered      speech
 
-# locative alternation: INV
-id  sentence    prep    ARG2
-id1 John sprayed the wall with paint.    sprayed   wall
-id2 He scattered half of the seeds in his garden.    scattered   garden
-id3 Most of them are scattered across the country.   scattered   country 
-id4 She spread butter on her bread  spread  bread
-id5 Elen loaded the boxes onto her car. loaded  car
 
-# long dependencies: 
-id  sentence prep ARG0
-id1 The waiter, after a long shift of 8 hours, went back home.   went    waiter
-id2 Timo, who was very very mad at Luca for breaking his cup, 
+# Material-Product Alternation: INV ARG1  
+MPA-INV1  Elisa carved a toy out of the wood./Elisa carved a toy out of the rock.    carved      wood
+MPA-INV2  Elenn sculpts a statue of clay./Elenn sculpts a statue of sand.     sculpts   clay 
+MPA-INV3  Mark carved the wood into a toy./Mark carved the ivory into a toy.     carved    wood
+MPA-INV4  He was chopping meat for the dinner./He was chopping vegetables for the dinner.     chopping  meat 
+MPA-INV5  David constructed the an house from bricks./David constructed the logs into a house.   constructed    bricks     
+
+# Locative Alternation:  MFT  ARG2 
+LA-MFT1   John sprayed the wall with paint.    sprayed   wall
+LA-MFT2   He scattered half of the seeds in his garden.    scattered   garden
+LA-MFT3   Most of them are scattered across the country.   scattered   country 
+LA-MFT4   She spread butter on her bread.      spread     bread
+LA-MFT5   Elen loaded the boxes onto her car.      loaded     car
+LA-MFT6   Getting from the airport may be a problem.   getting   airport
+
+# Locative Alternation:  INV     ARG2
+LA-INV1   I spray the wall with paint./John sprays the paint on the wall.  spray    wall
+LA-INV2   The nurse injected the drug into Tom's vein./The nurse injected Tom's vein with drug.      injected  Tom's vein
+LA-INV3   Jesse loaded the truck with the boxes./Jesse loaded the boxes into the truck.      loaded    boxes
+LA-INV4   The kid spread his sandwich with maionese./The kid spread maionese on his sandwich.  spread    sandwich
+LA-INV5   My tears smudged the eyeliner on my face./My tears smudged my face with eyeliner.    smudged   eyeliner
+ 
+
+# Ambiguity: MFT + Polysemy     
+AMB-MFT-PO1   I saw the kid with the binoculas.    saw       binoculas    ARGM-MNR
+AMB-MFT-PO2   He watched a movie with Tom Hanks.      watched        Tom Hanks      ARG1     
+AMB-MFT-PO3   I ate the chicken with the chopsticks.       ate       chopsticks     ARGM-MNR  
+AMB-MFT-PO4   The student read all the books in the library.    read      library   ARGM-LOC
+AMB-MFT-PO5   Jane walked the dog with a little jacket.    walked   jacket  ARGM-MNR
+AMB-MFT-PO6   I called him a police-officer.    called  police-officer  ARG2       
