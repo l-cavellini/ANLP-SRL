@@ -1,0 +1,546 @@
+[
+    {
+        "capability": "Causative-Inchoative Alternation",
+        "test": "INV",
+        "test_ID": "CIA-INV1",
+        "sentences": [
+            "John broke the vase.",
+            "The vase broke."
+        ],
+        "predicate": "broke",
+        "token": "vase",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Causative-Inchoative Alternation",
+        "test": "INV",
+        "test_ID": "CIA-INV2",
+        "sentences": [
+            "Alex crashed the car against the wall.",
+            "The car crashed againts the wall."
+        ],
+        "predicate": "crashed",
+        "token": "car",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Causative-Inchoative Alternation",
+        "test": "INV",
+        "test_ID": "CIA-INV3",
+        "sentences": [
+            "The soup tasted better than the last time.",
+            "I tasted a delicious soup."
+        ],
+        "predicate": "tasted",
+        "token": "soup",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Causative-Inchoative Alternation",
+        "test": "INV",
+        "test_ID": "CIA-INV4",
+        "sentences": [
+            "The wind cleared the sky from the clouds.",
+            "The sky cleared from the clouds."
+        ],
+        "predicate": "cleared",
+        "token": "sky",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Causative-Inchoative Alternation",
+        "test": "INV",
+        "test_ID": "CIA-INV5",
+        "sentences": [
+            "The ice melts.",
+            "Warm temperature melts the ice."
+        ],
+        "predicate": "melts",
+        "token": "ice",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Causative-Inchoative Alternation",
+        "test": "MFT + Long Dependency",
+        "test_ID": "CIA-Dep-MFT1",
+        "sentences": "The vase, that was a gift from japan, broke during the moving.",
+        "predicate": "broke",
+        "token": "vase",
+        "label": "ARG2"
+    },
+    {
+        "capability": "Causative-Inchoative Alternation",
+        "test": "MFT + Long Dependency",
+        "test_ID": "CIA-Dep-MFT2",
+        "sentences": "The plane, due to malfunction in the left engine, crashed on land.",
+        "predicate": "crushed",
+        "token": "plane",
+        "label": "ARG2"
+    },
+    {
+        "capability": "Causative-Inchoative Alternation",
+        "test": "MFT + Long Dependency",
+        "test_ID": "CIA-Dep-MFT3",
+        "sentences": "The window, which was just being repaired, smashed into thousands of pieces.",
+        "predicate": "smashed",
+        "token": "window",
+        "label": "ARG2"
+    },
+    {
+        "capability": "Causative-Inchoative Alternation",
+        "test": "MFT + Long Dependency",
+        "test_ID": "CIA-Dep-MFT4",
+        "sentences": "The book, pushed by the cat on the table, fell on the ground.",
+        "predicate": "fell",
+        "token": "book",
+        "label": "ARG2"
+    },
+    {
+        "capability": "Causative-Inchoative Alternation",
+        "test": "MFT + Long Dependency",
+        "test_ID": "CIA-Dep-MFT5",
+        "sentences": "The light of that beautiful old lamp now dims.",
+        "predicate": "dims",
+        "token": "light",
+        "label": "ARG2"
+    },
+    {
+        "capability": "Causative-Inchoative Alternation",
+        "test": "MFT + Long Dependency",
+        "test_ID": "CIA-Dep-MFT6",
+        "sentences": "The ice, due to the warm weather of the past few days, melted.",
+        "predicate": "melted",
+        "token": "ice",
+        "label": "ARG2"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT",
+        "test_ID": "PA-MFT1",
+        "sentences": "My present was lost during the shipping.",
+        "predicate": "lost",
+        "token": "present",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT",
+        "test_ID": "PA-MFT2",
+        "sentences": "Adrian was killed by Mary",
+        "predicate": "killed",
+        "token": "Adrian",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT",
+        "test_ID": "PA-MFT3",
+        "sentences": "The students were given homework by the teacher.",
+        "predicate": "given",
+        "token": "homework",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT",
+        "test_ID": "PA-MFT4",
+        "sentences": "The potrait was painted in the early '90.",
+        "predicate": "painted",
+        "token": "potrait",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT",
+        "test_ID": "PA-MFT5",
+        "sentences": "The criminal was chased by the police.",
+        "predicate": "chased",
+        "token": "criminal",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT",
+        "test_ID": "PA-MFT6",
+        "sentences": "The gazzelle was hunted by the lions.",
+        "predicate": "hunted",
+        "token": "gazzelle",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT",
+        "test_ID": "PA-MFT7",
+        "sentences": "The song sang by the band was terrific.",
+        "predicate": "ssang",
+        "token": "song",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT",
+        "test_ID": "PA-MFT8",
+        "sentences": "The words written there were so moving.",
+        "predicate": "written",
+        "token": "words",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT",
+        "test_ID": "PA-MFT9",
+        "sentences": "My wallet was stolen.",
+        "predicate": "stolen",
+        "token": "wallet",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT",
+        "test_ID": "PA-MFT10",
+        "sentences": "The speech was delivered by the politician.",
+        "predicate": "delivered",
+        "token": "speech",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT + Robustness",
+        "test_ID": "PA-MFT-ROB1",
+        "sentences": "My present was lost during the shipping.",
+        "predicate": "lost",
+        "token": "present",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT + Robustness",
+        "test_ID": "PA-MFT-ROB2",
+        "sentences": "Adrian was killed Mary",
+        "predicate": "killed",
+        "token": "Adrian",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT + Robustness",
+        "test_ID": "PA-MFT-ROB3",
+        "sentences": "The students were given homework the teacher.",
+        "predicate": "given",
+        "token": "homework",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT + Robustness",
+        "test_ID": "PA-MFT-ROB4",
+        "sentences": "The potrait was painted in the early '90.",
+        "predicate": "painted",
+        "token": "potrait",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT + Robustness",
+        "test_ID": "PA-MFT-ROB5",
+        "sentences": "The criminal was chased the police.",
+        "predicate": "chased",
+        "token": "criminal",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT + Robustness",
+        "test_ID": "PA-MFT-ROB6",
+        "sentences": "The gazzelle was hunted the lions.",
+        "predicate": "hunted",
+        "token": "gazzelle",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT + Robustness",
+        "test_ID": "PA-MFT-ROB7",
+        "sentences": "The song sang the band was terrific.",
+        "predicate": "ssang",
+        "token": "song",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT + Robustness",
+        "test_ID": "PA-MFT-ROB8",
+        "sentences": "The words written there were so moving.",
+        "predicate": "written",
+        "token": "words",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT + Robustness",
+        "test_ID": "PA-MFT-ROB9",
+        "sentences": "My wallet was stolen.",
+        "predicate": "stolen",
+        "token": "wallet",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Passive Alternation",
+        "test": "MFT + Robustness",
+        "test_ID": "PA-MFT-ROB10",
+        "sentences": "The speech was delivered the politician.",
+        "predicate": "delivered",
+        "token": "speech",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Material-Product Alternation",
+        "test": "INV",
+        "test_ID": "MPA-INV1",
+        "sentences": [
+            "Elisa carved a toy out of the wood.",
+            "Elisa carved a toy out of the rock."
+        ],
+        "predicate": "carved",
+        "token": "wood",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Material-Product Alternation",
+        "test": "INV",
+        "test_ID": "MPA-INV2",
+        "sentences": [
+            "Elenn sculpts a statue of clay.",
+            "Elenn sculpts a statue of sand."
+        ],
+        "predicate": "sculpts",
+        "token": "clay",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Material-Product Alternation",
+        "test": "INV",
+        "test_ID": "MPA-INV3",
+        "sentences": [
+            "Mark carved the wood into a toy.",
+            "Mark carved the ivory into a toy."
+        ],
+        "predicate": "carved",
+        "token": "wood",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Material-Product Alternation",
+        "test": "INV",
+        "test_ID": "MPA-INV4",
+        "sentences": [
+            "He was chopping meat for the dinner.",
+            "He was chopping vegetables for the dinner."
+        ],
+        "predicate": "chopping",
+        "token": "meat",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Material-Product Alternation",
+        "test": "INV",
+        "test_ID": "MPA-INV5",
+        "sentences": [
+            "David constructed the an house from bricks.",
+            "David constructed the logs into a house."
+        ],
+        "predicate": "constructed",
+        "token": "bricks",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Locative Alternation",
+        "test": "MFT",
+        "test_ID": "LA-MFT1",
+        "sentences": "John sprayed the wall with paint.",
+        "predicate": "sprayed",
+        "token": "wall",
+        "label": "ARG2"
+    },
+    {
+        "capability": "Locative Alternation",
+        "test": "MFT",
+        "test_ID": "LA-MFT2",
+        "sentences": "He scattered half of the seeds in his garden.",
+        "predicate": "scattered",
+        "token": "garden",
+        "label": "ARG2"
+    },
+    {
+        "capability": "Locative Alternation",
+        "test": "MFT",
+        "test_ID": "LA-MFT3",
+        "sentences": "Most of them are scattered across the country.",
+        "predicate": "scattered",
+        "token": "country",
+        "label": "ARG2"
+    },
+    {
+        "capability": "Locative Alternation",
+        "test": "MFT",
+        "test_ID": "LA-MFT4",
+        "sentences": "She spread butter on her bread.",
+        "predicate": "spread",
+        "token": "bread",
+        "label": "ARG2"
+    },
+    {
+        "capability": "Locative Alternation",
+        "test": "MFT",
+        "test_ID": "LA-MFT5",
+        "sentences": "Elen loaded the boxes onto her car.",
+        "predicate": "loaded",
+        "token": "car",
+        "label": "ARG2"
+    },
+    {
+        "capability": "Locative Alternation",
+        "test": "MFT",
+        "test_ID": "LA-MFT6",
+        "sentences": "Getting from the airport may be a problem.",
+        "predicate": "getting",
+        "token": "airport",
+        "label": "ARG2"
+    },
+    {
+        "capability": "Locative Alternation",
+        "test": "INV",
+        "test_ID": "LA-INV1",
+        "sentences": [
+            "I spray the wall with paint.",
+            "John sprays the paint on the wall."
+        ],
+        "predicate": "spray",
+        "token": "wall",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Locative Alternation",
+        "test": "INV",
+        "test_ID": "LA-INV2",
+        "sentences": [
+            "The nurse injected the drug into Tom's vein.",
+            "The nurse injected Tom's vein with drug",
+            "injected"
+        ],
+        "predicate": "Tom's",
+        "token": "vein",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Locative Alternation",
+        "test": "INV",
+        "test_ID": "LA-INV3",
+        "sentences": [
+            "Jesse loaded the truck with the boxes.",
+            "Jesse loaded the boxes into the truck."
+        ],
+        "predicate": "loaded",
+        "token": "boxes",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Locative Alternation",
+        "test": "INV",
+        "test_ID": "LA-INV4",
+        "sentences": [
+            "The kid spread his sandwich with maionese.",
+            "The kid spread maionese on his sandwich."
+        ],
+        "predicate": "spread",
+        "token": "sandwich",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Locative Alternation",
+        "test": "INV",
+        "test_ID": "LA-INV5",
+        "sentences": [
+            "My tears smudged the eyeliner on my face.",
+            "My tears smudged my face with eyeliner."
+        ],
+        "predicate": "smudged",
+        "token": "eyeliner",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Ambiguity",
+        "test": "MFT + Polysemy",
+        "test_ID": "AMB-MFT-PO1",
+        "sentences": "I saw the kid with the binoculas",
+        "predicate": "saw",
+        "token": "binoculas",
+        "label": "ARGM-MNR"
+    },
+    {
+        "capability": "Ambiguity",
+        "test": "MFT + Polysemy",
+        "test_ID": "AMB-MFT-PO2",
+        "sentences": "He watched a movie with Tom Hanks",
+        "predicate": "watched",
+        "token": "Tom Hanks",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Ambiguity",
+        "test": "MFT + Polysemy",
+        "test_ID": "AMB-MFT-PO3",
+        "sentences": "I ate the chicken with the chopsticks",
+        "predicate": "ate",
+        "token": "chopsticks",
+        "label": "ARGM-MNR"
+    },
+    {
+        "capability": "Ambiguity",
+        "test": "MFT + Polysemy",
+        "test_ID": "AMB-MFT-PO4",
+        "sentences": "The plummer unclogged the sink with a drain snake",
+        "predicate": "unclogged",
+        "token": "drain snake",
+        "label": "ARGM-MNR"
+    },
+    {
+        "capability": "Ambiguity",
+        "test": "MFT + Polysemy",
+        "test_ID": "AMB-MFT-PO5",
+        "sentences": "Jane walked the dog with a pink jacket",
+        "predicate": "walked",
+        "token": "jacket",
+        "label": "ARGM-MNR"
+    },
+    {
+        "capability": "Ambiguity",
+        "test": "MFT + Polysemy",
+        "test_ID": "AMB-MFT-PO6",
+        "sentences": "I ate bread with pecans",
+        "predicate": "ate",
+        "token": "pecans",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Ambiguity",
+        "test": "MFT + Polysemy",
+        "test_ID": "AMB-MFT-PO6",
+        "sentences": "I saw him with a cat",
+        "predicate": "saw",
+        "token": "cat",
+        "label": "ARG1"
+    },
+    {
+        "capability": "Ambiguity",
+        "test": "MFT + Polysemy",
+        "test_ID": "AMB-MFT-PO5",
+        "sentences": "Jane bathed a dog with fleas",
+        "predicate": "bathed",
+        "token": "fleas",
+        "label": "ARG2"
+    }
+    
+
+
+]

@@ -366,3 +366,32 @@ def plot_results(path = None):
         plt.savefig(path + 'f1_differences.png')
 
     plt.show()
+
+def conll_transform2(df):
+    """
+    Transform the conll df by duplicating sentences with more than one predicate,
+    such that each sentence has exactly one predicate.
+    Add a random number to the 'sent_id' column for each duplicated sentence.
+    """
+    regex = '.*\.0\d'
+    multi_predicate_sentence_ids = df.groupby('sent_id').filter(
+        lambda x: x.iloc[:, 11].str.match(regex).sum() > 1)['sent_id'].unique()
+    rows_to_concat = []
+    for sent_id in multi_predicate_sentence_ids:
+        sentence = df[df['sent_id'] == sent_id]
+        predicate_count = sentence.iloc[:, 11].str.match(regex).sum()
+        for i in range(1, predicate_count):
+            sentence_copy = sentence.copy(deep=True)
+            sentence_copy.iloc[:, 12] = sentence_copy.iloc[:, 12+i]
+            # Add a random number to the 'sent_id' column
+            sentence_copy['sent_id'] = sentence_copy['sent_id'] + '_' + str(i) # add the duplication number for easier grouping
+            #print(sentence_copy.columns)
+            sentence_copy.loc[sentence_copy[12] != 'V', 11] = '' # set the predicate to '' for non-predicate words for the subsequent predicates after the first
+            rows_to_concat.append(sentence_copy)
+    df = pd.concat([df] + rows_to_concat, ignore_index=True)
+    df = df.drop(df.columns[13:], axis=1)
+    df = df.rename(columns={11: 'predicate', 12: 'argument_type'})
+    df.loc[df['argument_type'] != 'V', 'predicate'] = '' # set the argument type to '' for non-predicate words for the first predicate
+    df = df.fillna('_')
+
+    return df
